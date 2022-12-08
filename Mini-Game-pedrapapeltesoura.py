@@ -25,7 +25,9 @@ def Opcao_Jogador():
 
 def Opcao_Maquina():
     # opções que a maquina pode escolher
-    esc_maquina = choice(["Pedra, Papel, Tesoura"])
+    esc_maquina = choice(["Pedra"]),
+    esc_maquina = choice(["Papel"]),
+    esc_maquina = choice(["Tesoura"])
     return esc_maquina
 
 
